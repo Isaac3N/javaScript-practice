@@ -1,0 +1,2 @@
+/* boolean is a data type in javascript that expresses
+a value as either true or false */
