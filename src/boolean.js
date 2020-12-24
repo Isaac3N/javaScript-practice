@@ -16,3 +16,23 @@ the 'else' and 'else if' statement can be used to catch the if statement in case
 
  
  */
+
+ function testSize(num){
+     if (num < 5){
+         return "tiny";
+     }else if (num < 10){
+         return "small";
+     }else if (num < 15){
+         return "Medium";
+     }else if (num < 20){
+         return "Large";
+     }else if (num >= 20){
+         return "Huge";
+     }else{
+         return "change me";
+     }
+ }
+
+console.log(testSize(7));
+
+
