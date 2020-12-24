@@ -23,3 +23,8 @@ function caseInSwitch(val){
     return answer
 }
 console.log(caseInSwitch(2))
+
+/* function isLess(a,b){
+    return a < b;
+}
+console.log(isLess(10, 15)); */
