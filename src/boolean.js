@@ -63,5 +63,5 @@ switch(new Date().getDay()){
         console.log("Saturday")
         break;
     default:
-        console.log("I dont know")
-};
+        console.log('I dont know ')
+}
