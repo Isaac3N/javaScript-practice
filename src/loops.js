@@ -53,8 +53,15 @@ console.log(product); */
 // while(true){
 //     console.log('true')
 // };
-var i = 0;
-do {
-    i += 1213;
-    console.log(i);
-}while(false);
+ var i = 0;
+ while (i < 5) {
+     i ++
+     console.log(i)
+     if (i == 3){
+         break;
+     }
+ }
+// do {
+//     i += 1213;
+//     console.log(i);
+// }while(false);
