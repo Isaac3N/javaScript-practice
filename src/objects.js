@@ -19,17 +19,27 @@ console.log(legs); */
 // ourDog.sound = "woof";
 // you can delete a propert by doing "delete ourDog.sound;"
 
-var myObj = {
-    gift: "pony",
-    pet: "kitten",
+// var myObj = {
+//     gift: "pony",
+//     pet: "kitten",
+// };
+
+// function checkObj(checkProp){
+//     if (myObj.hasOwnProperty(checkProp)){
+//         return myObj[checkProp];
+//     } else{ 
+//         return "Not found"  
+// }
+// // this is used to check the property of an object
+// }
+// console.log(checkObj("hello"));
+
+
+var person = {
+    name: "Maria Jones",
+    age: 21,
+    hasDriverLicense: true,
 };
 
-function checkObj(checkProp){
-    if (myObj.hasOwnProperty(checkProp)){
-        return myObj[checkProp];
-    } else{ 
-        return "Not found"  
-}
-// this is used to check the property of an object
-}
-console.log(checkObj("hello"));
+// console.log(JSON.stringify(person));
+console.log(Object.values(person));

@@ -23,7 +23,7 @@ function freezeObj(){
         PI: 3.14
     };
     Object.freeze(MATH_CONSTANTS);  // its used to freze a variable so it would not be mutable
-    try {
+    try { 
         MATH_CONSTANTS.PI = 99;
     }catch(ex){
         console.log(ex);
