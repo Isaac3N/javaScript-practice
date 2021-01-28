@@ -17,18 +17,18 @@ checkScope(); */
 // const is read only you can not add or remove anything from it 
 // its better for the variable that uses const to be in all capitals
 
-function freezeObj(){
-    "use strict";
-    const MATH_CONSTANTS = {
-        PI: 3.14
-    };
-    Object.freeze(MATH_CONSTANTS);  // its used to freze a variable so it would not be mutable
-    try { 
-        MATH_CONSTANTS.PI = 99;
-    }catch(ex){
-        console.log(ex);
-    }
-    return MATH_CONSTANTS.PI;
-}
-const PI = freezeObj();
-console.log(PI);
+// function freezeObj(){
+//     "use strict";
+//     const MATH_CONSTANTS = {
+//         PI: 3.14
+//     };
+//     Object.freeze(MATH_CONSTANTS);  // its used to freze a variable so it would not be mutable
+//     try { 
+//         MATH_CONSTANTS.PI = 99;
+//     }catch(ex){
+//         console.log(ex);
+//     }
+//     return MATH_CONSTANTS.PI;
+// }
+// const PI = freezeObj();
+// console.log(PI);
