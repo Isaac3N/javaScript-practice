@@ -1,5 +1,5 @@
-var myArray = [];
-var i = 10;
+// var myArray = [];
+// var i = 10;
 
 /* while loops allows you to keep iterating unitl a particular condition is met 
 var i = 0;
@@ -33,9 +33,28 @@ var product = multiplyAll([[1,2], [3,4], [5,6,7]]);
 console.log(product); */
 
 //do while loops performs the instruction before checking the condition
-do {
-    myArray.push(i);
-    i ++;
-}while(i < 5);
+// do {
+//     myArray.push(i);
+//     i ++;
+// }while(i < 5);
 
-console.log(i, myArray);
+// console.log(i, myArray);
+
+// var persons = [
+//     { name:"Alexander", age:22 },
+//     { name:"The great", age: 34 }
+// ];
+// console.log(persons[0].name)
+// for (var i=0; i < persons.length; i ++){
+//     console.log(persons[i].name);
+//     console.log(persons[i].age) ;
+// };
+
+// while(true){
+//     console.log('true')
+// };
+var i = 0;
+do {
+    i += 1213;
+    console.log(i);
+}while(false);
