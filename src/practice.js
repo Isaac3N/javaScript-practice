@@ -10,11 +10,15 @@ console.log("After: " + JSON.stringify(testArr)); */
 
 // the tenary operator '?'
 
-function checkEqaul(num){
-    return num > 0 ? "positive" : num < 0 ? "negative": "zero"
-};
-console.log(checkSign);
+// function checkEqaul(num){
+//     return num > 0 ? "positive" : num < 0 ? "negative": "zero"
+// };
+// console.log(checkSign);
 
 //'math.random' is used for generating random fraction
 //'math.floor' is used for generating a random whole number
 // the 'parseInt' is used to parse a string into an integer 
+
+import * as Math from "./Math";
+
+console.log(Math.add(2,2));
