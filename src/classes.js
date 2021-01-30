@@ -5,6 +5,9 @@ class Animal {
         this.age = age;
 
     }
+    static staticMethod() {
+      console.log("this is a static method");
+    }
     eat(){
         console.log(`${this.name} is eating`);
     } 
@@ -15,6 +18,7 @@ class Animal {
 }
 
 // instanciation 
+Animal.staticMethod();
 const isaac = new Animal("isaac", 2);
 isaac.eat();
 isaac.sleep();
@@ -36,3 +40,5 @@ class Dog extends Animal {
 const bingo = new Dog('bingo',4, 'bulldog');
 bingo.newBreed();
 bingo.logSleep()
+
+// static methods in javascript 
