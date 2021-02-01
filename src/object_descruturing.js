@@ -23,4 +23,4 @@ const doorNumber = user.address.fulladdress.door_number;
 const { name, age, address: {country: country}} = user;
 const { address: {fulladdress: {door_number : number}}} = user;
 
-console.log(doorNumber)
+console.log(user);
