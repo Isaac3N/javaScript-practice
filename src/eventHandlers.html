@@ -6,3 +6,22 @@
     }
     document.getElementById("myBtn").onclick = sayHello;
 </script> -->
+<button id="myBtn">Click Me</button>
+ 
+<script>
+// Defining custom functions
+function firstFunction() {
+    alert("The first function executed successfully!");
+}
+ 
+function secondFunction() {
+    alert("The second function executed successfully");
+}
+ 
+// Selecting button element
+var btn = document.getElementById("myBtn");
+ 
+// Assigning event handlers to the button
+btn.onclick = firstFunction;
+btn.onclick = secondFunction; // This one overwrite the first
+</script>
